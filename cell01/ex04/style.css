@@ -1,0 +1,23 @@
+body {
+            background-color: pink;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 48px;
+        }   
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        .footer {
+            text-align: right;
+            font-family: monospace;
+            font-style: italic;
+            font-size: 20px
+        }
