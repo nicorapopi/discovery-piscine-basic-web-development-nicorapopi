@@ -12,4 +12,4 @@ for arg in "$@"; do
   fi
 done
 
-#bash argv.sh [ ]
+#bash argv.sh ...
