@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      padding-top: 80px; /* เพิ่มจาก 60px */
+      background-image: url('https://wallpapercat.com/w/full/1/2/e/5823974-3840x2160-desktop-hd-lofi-forest-background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      min-height: 100vh; /* ให้ body อย่างน้อยเต็มหน้าจอ */
+      overflow-y: auto; /* ให้ scroll แนวตั้งได้ */
+    }
+
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 30px;
+      border-radius: 12px;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+
+    img {
+      max-width: 100px;
+      height: auto;
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Resume</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience & Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Section 1: About Me -->
+    <section id="about">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="https://siet.kmitl.ac.th/sites/siet/files/2024-12/logo%20siet%20white.png" alt="Profile Photo" class="img-fluid">
+        </div>
+        <div class="col-md-8 text-white">
+          <h1></h1>
+          <h5>หลักสูตรครุศาสตร์อุตสาหกรรมบัณฑิต สาขาวิชาเทคโนโลยีคอมพิวเตอร์</h5>
+          <h5>Bachelor of Science in Industrial Education Program in Computer technology</h5>
+          <h5></h5>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Experience & Skills -->
+    <section id="experience">
+      <h2>🎓 ข้อมูลหลักสูตร</h2>
+      <ul>
+        <li>ชื่อหลักสูตร: ครุศาสตร์อุตสาหกรรมบัณฑิต สาขาวิชาเทคโนโลยีคอมพิวเตอร์</li>
+        <li>ระดับการศึกษา: ปริญญาตรี (4 ปี)</li>
+        <li>คณะ: คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี (SIET)</li>
+        <li>ค่าธรรมเนียมการศึกษา: 19,000 บาท/ภาคการศึกษา</li>
+      </ul>
+      <h2>📚 วิชาที่เรียน</h2>
+      <ul>
+        <li>การเขียนโปรแกรม (Programming)</li>
+        <li>โครงสร้างข้อมูลและอัลกอริธึม (Data Structures & Algorithms)</li>
+        <li>ระบบฐานข้อมูล (Database Systems)</li>
+        <li>ระบบปฏิบัติการ (Operating Systems)</li>
+        <li>เทคโนโลยีเว็บ (Web Technologies)</li>
+        <li>วิศวกรรมซอฟต์แวร์ (Software Engineering)</li>
+        <li>การสอนและการประเมินผลการเรียนรู้ (Teaching & Educational Assessment)</li>
+      </ul>
+      <h2>💼 โอกาสในการประกอบอาชีพ</h2>
+      <ul>
+        <li>ครูวิชาคอมพิวเตอร์ในโรงเรียน</li>
+        <li>นักพัฒนาซอฟต์แวร์</li>
+        <li>ผู้ดูแลระบบคอมพิวเตอร์และเครือข่าย</li>
+        <li>นักพัฒนา IoT (Internet of Things)</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>📨 saraban_siet@kmitl.ac.th</li>
+        <li>📞 0 2329 8435</li>
+      </ul>
+      <p>
+        <a href="https://siet.kmitl.ac.th/node/284" target="_blank" class="text-info">Siet website</a> |
+        <a href="https://www.facebook.com/siet.kmitl" target="_blank" class="text-info">Facebook</a>
+      </p>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

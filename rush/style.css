@@ -1,0 +1,41 @@
+/* style.css */
+body {
+  background-image: url('https://wallpapercat.com/w/full/2/3/9/5823958-3840x2160-desktop-hd-lofi-forest-background-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+a.btn-custom {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-custom:hover {
+  background-color: #333333;
+}
