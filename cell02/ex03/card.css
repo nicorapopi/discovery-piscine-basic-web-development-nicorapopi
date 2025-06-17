@@ -1,0 +1,67 @@
+body {
+    background-color: #e4c283;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: rgb(195, 167, 106);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.login {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.desc {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+}
+
+.socials img {
+    width: 24px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #005fa3;
+}
+
+/* ตารางล่องหน */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: none;
+}
